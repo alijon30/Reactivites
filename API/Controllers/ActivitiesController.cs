@@ -5,12 +5,12 @@ using Persistence;
 
 namespace API.Controllers
 {
-    public class ActivitiesContoller : BaseApiController
+    public class ActivitiesController : BaseApiController
     {
 
         private readonly DataContext _context;
 
-        public ActivitiesContoller(DataContext context)
+        public ActivitiesController(DataContext context)
         {
             _context = context;
 
